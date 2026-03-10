@@ -1,0 +1,15 @@
+Python est un langage de programmation de haut niveau, à usage général. Sa philosophie de conception met l'accent sur la lisibilité du code grâce à l'utilisation d'une indentation significative.
+
+Python est à typage dynamique et géré par le ramasse-miettes. Il prend en charge plusieurs paradigmes de programmation, notamment la programmation structurée, orientée objet et fonctionnelle.
+
+Guido van Rossum a commencé à travailler sur Python à la fin des années 1980 comme successeur du langage de programmation ABC. Python 3.0, sorti en 2008, était une révision majeure pas entièrement rétrocompatible avec les versions précédentes. Python 3.x est la version actuelle recommandée.
+
+RAG (Retrieval-Augmented Generation) est un cadre d'IA qui récupère des faits à partir d'une base de connaissances externe pour ancrer les grands modèles de langage (LLM) sur les informations les plus précises et à jour. Il améliore la qualité des réponses des LLM en fournissant un contexte pertinent issu de documents réels.
+
+Ollama est un outil qui permet aux utilisateurs d'exécuter des grands modèles de langage open-source localement sur leurs machines. Il prend en charge des modèles comme Llama, Mistral, Gemma et bien d'autres. Ollama fournit une API simple pour créer, exécuter et gérer des modèles. Il peut également générer des embeddings de texte via son API.
+
+ChromaDB est une base de données vectorielle open-source conçue pour les applications d'IA. Elle permet le stockage et la récupération efficaces des embeddings, ce qui la rend idéale pour la recherche sémantique et les applications RAG. Elle peut fonctionner en mémoire ou avec un stockage persistant sur disque.
+
+Un embedding est une représentation numérique d'un texte sous forme de vecteur. Les embeddings capturent le sens sémantique du texte, ce qui permet de comparer des textes en termes de similarité. Deux textes sémantiquement proches auront des embeddings proches dans l'espace vectoriel.
+
+La recherche par similarité cosinus mesure le cosinus de l'angle entre deux vecteurs d'embedding. Une valeur proche de 1 indique une forte similarité, tandis qu'une valeur proche de 0 indique peu de similarité. ChromaDB utilise cette métrique par défaut pour le calcul des distances.
